@@ -1,0 +1,32 @@
+list=['s','c','i','e','n','c','e']
+print(list[3])
+print(list[0:-4])
+
+my_list=["science",[2,3,4],['a']]
+print(my_list[0][3])
+print(my_list)
+my_list.append("computer")
+print(my_list)
+print(my_list+[4,5])
+print(my_list)
+my_list.insert(1,6)
+print(my_list)
+del my_list[2:4]
+print(my_list)
+del my_list
+print(my_list)
+
+list=['s','c','i','e','n','c','e']
+list.remove('e')
+print(list)
+print(list.pop(5))
+list.reverse()
+print(list)
+pow2 = [2 ** x for x in range(10)]
+print(pow2)
+list=['s','c','i','e','n','c','e']
+print('i' in list)
+print('o' in list)
+for course in['c','java','python']:
+    print("I study",course)
+
