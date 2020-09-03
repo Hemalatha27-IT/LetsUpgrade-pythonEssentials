@@ -1,0 +1,33 @@
+my_dict = {'name': 'Jack', 'age': 26}
+print(my_dict['name'])
+my_dict = {'name': 'Jack', 'age': 26}
+print(my_dict['name'])
+my_dict['place']='Chennai'
+print(my_dict)
+squares = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+print(squares.pop(3))
+print(squares)
+print(squares.popitem())
+print(squares)
+squares.clear()
+print(squares)
+del squares
+print(squares)
+marks = {}.fromkeys(['Math', 'English', 'Science'], 0)
+print(marks)
+for item in marks.items():
+    print(item)
+squares={x:x*x for x in range(6)}
+print(squares)
+odd_square={x:x*x for x in range(11)if x%2==1}
+print(odd_square)
+squares = {1: 1, 3: 9, 5: 25, 7: 49, 9: 81}
+print(1 in squares)
+print( 4 not in squares)
+print(16 in squares)
+squares = {1: 1, 3: 9, 5: 25, 7: 49, 9: 81}
+for i in squares:
+    print(squares[i])
+print(all(squares))
+print(sorted(squares))
+
