@@ -1,0 +1,30 @@
+my_string = 'Hello'
+print(my_string)
+
+my_string = "Hello"
+print(my_string)
+str = 'letsupgrade'
+print('str = ', str)
+print('str[0] = ', str[0])
+print('str[0] = ', str[0])
+str1 = 'Hello'
+str2 ='World!'
+print('str1 + str2 = ', str1 + str2)
+count = 0
+for letter in 'Hello World':
+    if(letter == 'l'):
+        count += 1
+print(count,'letters found')
+default_order = "{}, {} and {}".format('John','Bill','Sean')
+print('\n--- Default Order ---')
+print(default_order)
+positional_order = "{1}, {0} and {2}".format('John','Bill','Sean')
+print('\n--- Positional Order ---')
+print(positional_order)
+keyword_order = "{s}, {b} and {j}".format(j='John',b='Bill',s='Sean')
+print('\n--- Keyword Order ---')
+print(keyword_order)
+"LetsUpGrade".lower()
+"Happy New Year".replace("New Year","Diwali")
+"Hello World".split()
+
