@@ -1,0 +1,33 @@
+my_set = {1.0, "Hello", (1, 2, 3)}
+print(my_set)
+my_set = {1, 2, 3, 4, 3, 2}
+print(my_set)
+set={1,3,4}
+print(set)
+set.add(2)
+print(set)
+set.update([2,3,4])
+print(set)
+set.update([4,5],{1,6,8})
+print(set)
+set.discard(4)
+print(set)
+set.remove(6)
+print(set)
+my_set.pop()
+print(my_set)
+my_set.clear()
+print(my_set)
+A = {1, 2, 3, 4, 5}
+B = {4, 5, 6, 7, 8}
+print(A|B)
+print(A&B)
+print(A-B)
+print(A^B)
+A = frozenset([1, 2, 3, 4])
+B = frozenset([3, 4, 5, 6])
+A.isdisjoint(B)
+A.difference(B)
+A | B
+A.add(9)
+A.add(9)
